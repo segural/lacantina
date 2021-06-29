@@ -10,9 +10,9 @@ const publicPath = path.resolve('./public')
 
 
 // ROUTES
-const usersRoutes = require ('./src/routes/users');
-const mainRoutes = require ('./src/routes/main');
-const productsRoutes = require ('./src/routes/products');
+const usersRoutes = require ('./src/routes/users.js');
+const mainRoutes = require ('./src/routes/main.js');
+const productsRoutes = require ('./src/routes/products.js');
 
 //USERS API ROUTES
 const usersAPIroutes = require('./src/routes/api/usersAPIroutes')
