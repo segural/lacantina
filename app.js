@@ -46,7 +46,7 @@ app.use(ifLoggedUser);
 app.use(methodOverrride('_method'))
 app.use(express.static(publicPath));
 app.listen (process.env.PORT || 3000, function () {
-    console.log ('Nerdolandia en puerto 3000');
+    console.log ('Servidor corriendo en puerto 3000');
 });
 
 
